@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .divbody {
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 0px;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 5px;
+
+        }
+
+        legend {
+            text-align: center;
+        }
+
+        .label1 {
+            display: inline-block;
+            width: 190px;
+            text-align: right;
+            margin: 5px;
+
+        }
+
+        .row {
+            padding: 3px;
+            /* border: 1px solid; */
+        }
+
+        .row1 {
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 149px;
+        }
+
+        #intext {
+            width: 510px;
+        }
+
+        .btn {
+            text-align: center;
+            margin: 3px;
+        }
+
+        img {
+            width: 169px;
+            border: 1px solid;
+            float: right;
+            /* display: inline-block; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="divbody">
+        <h2>REGISTRATION FORM</h2>
+        <h3>Korea software HRD Center Registration Form</h3><br>
+        <img src="../Training Cours/image/images.jpg">
+        <p>March 17th, 2017</p>
+        <p>Korea Software HRD Center</p>
+        <p>#12,St323,Sangkat Boeung Kak II,Khan Toul Kork,Phnom Penh</p>
+        <p>Tel: (+855)23 991 314, Fax: (+855)23 991 315</p>
+        <p>Email: info.kshrd@gmail.com <br>
+            facebook.com/ksignhrd</p>
+
+        <form action="">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="row"> <label for="" class="label1">Khmer ID Number:</label>
+                    <input type="text" placeholder="input khmer ID Number">
+                </div>
+                <div class="row">
+                    <label for="" class="label1">Fullname:</label>
+                    <input type="text" placeholder="Firstname">
+                    <input type="text" placeholder="Lastname">
+                </div>
+                <div class="row">
+                    <label for="" class="label1">Gender:</label>
+                    <select name="" id="">
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label for="" class="label1">Date Of Birth:</label>
+                    <input type="date">
+                </div>
+                <div class="row">
+                    <label for="" class="label1">Place of Birth:</label>
+                    <input type="text" name="" id="intext" placeholder="Place of birth">
+                </div>
+                <div>
+                    <label for="" class="label1">Permanent address:</label>
+                    <textarea name="" id="" cols="69" rows="3"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Contact</legend>
+                <div class="row">
+                    <label for="" class="label1">Contact:</label>
+                    <input type="text" placeholder="Phone number">
+                    <label for="" class="label1">Emergency contact:</label>
+                    <input type="text" placeholder="Emergency contact">
+                </div>
+                <div class="row">
+                    <label for="" class="label1">Email:</label>
+                    <input type="email" placeholder="example@gmail.com">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Family Background</legend>
+                <div class="row">
+                    <label for="" class="label1">Father name</label>
+                    <input type="text" placeholder="Father name">
+                    <label for="" class="label1">Occupation:</label>
+                    <input type="text" placeholder="Occupation">
+                </div>
+                <div class="row">
+                    <label for="" class="label1">Address:</label>
+                    <textarea name="" id="" cols="69" rows="3"></textarea>
+                </div>
+                <div class="row">
+                    <label for="" class="label1">Mother name</label>
+                    <input type="text" placeholder="Mother name">
+                    <label for="" class="label1">Occupation:</label>
+                    <input type="text" placeholder="Occupation">
+                </div>
+                <div class="row">
+                    <label for="" class="label1">Address:</label>
+                    <textarea name="" id="" cols="69" rows="3"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Type Of Course</legend>
+                <div class="row1">
+                    <label for="" class="label1">Starting Date:</label>
+                    <input type="radio"> ITE Course 2018
+                    <input type="radio"> Short Course 2018
+                </div>
+            </fieldset>
+            <div class="btn">
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
